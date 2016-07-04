@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">RecycleMultiSelected</string>
+
+    <string-array name="countries_name">
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>East Timor</item>
+        <item>Indonesia</item>
+        <item>Laos</item>
+        <item>Malaysia</item>
+        <item>Myanmar</item>
+        <item>Philippines</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+    </string-array>
+
+    <string-array name="countries_area">
+        <item>5,765</item>
+        <item>181,035</item>
+        <item>14,874</item>
+        <item>1,904,569</item>
+        <item>236,800</item>
+        <item>329,847</item>
+        <item>676,000</item>
+        <item>342,353</item>
+        <item>724</item>
+        <item>513,120</item>
+        <item>331,210</item>
+    </string-array>
+
+    <string-array name="countries_capital">
+        <item>Bandar Seri Begawan</item>
+        <item>Phnom Penh</item>
+        <item>Dili</item>
+        <item>Jakarta</item>
+        <item>Vientiane</item>
+        <item>Kuala Lumpur</item>
+        <item>Nay Pyi Daw</item>
+        <item>Manila</item>
+        <item>Singapore</item>
+        <item>Bangkok</item>
+        <item>Hanoi</item>
+    </string-array>
+
+    <integer-array name="countries_flags">
+        <item>@drawable/flag_bn</item>
+        <item>@drawable/flag_kh</item>
+        <item>@drawable/flag_tl</item>
+        <item>@drawable/flag_id</item>
+        <item>@drawable/flag_la</item>
+        <item>@drawable/flag_my</item>
+        <item>@drawable/flag_bu</item>
+        <item>@drawable/flag_ph</item>
+        <item>@drawable/flag_sg</item>
+        <item>@drawable/flag_th</item>
+        <item>@drawable/flag_vn</item>
+    </integer-array>
+
+
+    <string name="no_item">No items</string>
+    <string name="country">Country: </string>
+    <string name="area">Area: </string>
+    <string name="capital">Capital: </string>
+    <string name="delete">Delete</string>
+
+</resources>
