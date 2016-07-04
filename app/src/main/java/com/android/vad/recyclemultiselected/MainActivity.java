@@ -96,6 +96,10 @@ public class MainActivity extends AppCompatActivity implements CountryRecyclerAd
 
         countries = tmpCountries;
 
+        if(countries.size() == 0){
+            recycleView.setVisibility(View.GONE);
+            findViewById(R.id.noitem).setVisibility(View.VISIBLE);
+        }
         adapter.setCountries(countries);
         adapter.notifyDataSetChanged();
     }
